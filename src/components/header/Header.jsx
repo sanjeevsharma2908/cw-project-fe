@@ -1,9 +1,11 @@
 import React from "react";
 import "./header.css";
 import { assets } from "../../assets/assets";
+import Navigation from "../navigation/Navigation";
 
 const Header = () => {
   return (
+    <>
     <div className="header">
       <div></div>
       <div></div>
@@ -24,6 +26,9 @@ const Header = () => {
         </div>
       </div>
     </div>
+    <Navigation />
+    </>
+    
   );
 };
 
