@@ -4,7 +4,10 @@ import { assets } from "../../assets/assets";
 
 const Footer = () => {
   return (
-    <div>
+    <div style={{
+      backgroundColor: "#e6e6e6",
+    }}>
+      <div>
     <div className="container">
       <div>
         <h2>ABOUT US</h2>
@@ -43,6 +46,8 @@ const Footer = () => {
     <img src={assets.logo} alt="" />
     <p>© 2024 Bluefly BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</p>
     </div>
+    </div>
+
     </div>
   );
 };
