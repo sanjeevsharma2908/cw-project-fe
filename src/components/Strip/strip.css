@@ -1,25 +1,45 @@
-
-.welcome-message{
-    
+.welcome-message {
     background-color: black;
     color: white;
     text-align: center;
-    align-items:center;
+    align-items: center;
     padding: 2px;
-   
-    h1{
-        animation-direction: reverse;
-        font-weight: 200;
-        font-size: 18px;
-        margin-bottom: 5px;
-    }
 }
-.offer-image{
+
+.welcome-message h1 {
+    animation-direction: reverse;
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.offer-image {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-    img{
-        width: 100%;
-        height: auto;
+}
+
+.offer-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .welcome-message h1 {
+        font-size: 16px;
+    }
+
+    .offer-image {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-message h1 {
+        font-size: 14px;
+    }
+
+    .offer-image {
+        margin-bottom: 10px;
     }
 }
