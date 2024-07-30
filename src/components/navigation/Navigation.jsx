@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navigation.css";
-import Strip from "../Strip/Strip";
+
 
 const Navigation = () => {
   const [menu, setMenu] = useState("clothing");
@@ -71,7 +71,6 @@ const Navigation = () => {
         </li>
       </ul>
     </div>
-    <Strip />
    </>
   );
 };

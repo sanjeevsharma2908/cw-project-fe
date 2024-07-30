@@ -1,7 +1,6 @@
 import React from "react";
 import "./strip.css";
-import Carausel from "../carausel/Carausel";
-
+import Slider from "../ImageSlider/Slider";
 const Strip = () => {
   return (
     <>
@@ -14,7 +13,8 @@ const Strip = () => {
           alt=""
         />
       </div>
-      <Carausel />
+      <Slider />
+     
     </>
   );
 };

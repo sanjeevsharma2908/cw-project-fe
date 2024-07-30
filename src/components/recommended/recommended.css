@@ -1,0 +1,36 @@
+.recom-div {
+    text-align: center;
+    align-items: center;
+}
+
+.recom-div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recom-div > div > div {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.recom-div > div > div img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .recom-div > div > div {
+        flex-basis: 50%; /* Show 2 cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .recom-div > div > div {
+        flex-basis: 100%; /* Show 1 card per row on even smaller screens */
+    }
+}
